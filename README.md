@@ -1,6 +1,4 @@
-# 🧩 A Survey of Agent Skills
-
-> Toward procedural infrastructure for LLM agents.
+# 🧩 A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents
 
 <p align="center">
   <img src="taxonomy.png" alt="Taxonomy of agent skills" width="88%">
@@ -19,8 +17,6 @@
 ## 🌟 Overview
 
 Agent skills are emerging as a reusable procedural layer for LLM agents: they compress experience, encode domain know-how, package workflows, and help agents retrieve, compose, execute, refine, and govern capabilities across tasks. This repository accompanies the survey **A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents** and collects papers around the agent-skill ecosystem.
-
-The goal is to make the literature easy to browse from a project-page perspective: start from the taxonomy, jump into the relevant layer, and contribute missing papers with consistent metadata.
 
 <a id="taxonomy-at-a-glance"></a>
 
