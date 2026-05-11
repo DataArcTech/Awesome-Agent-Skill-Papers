@@ -1,6 +1,91 @@
-# A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents 
+# 🧩 A Survey of Agent Skills
 
-## Layer 1: Ontology
+> Toward procedural infrastructure for LLM agents.
+
+<p align="center">
+  <img src="taxonomy.png" alt="Taxonomy of agent skills" width="88%">
+</p>
+
+<p align="center">
+  <a href="A_Survey_of_Agent_Skills__Toward_Procedural_Infrastructure_for_LLM_Agents.pdf">📄 Survey Paper</a>
+  ·
+  <a href="#taxonomy-at-a-glance">🗺️ Taxonomy</a>
+  ·
+  <a href="#application-layer">🚀 Applications</a>
+  ·
+  <a href="#paper-list-outline">📚 Paper List</a>
+  ·
+  <a href="#tips-for-uploading-papers">✨ Contribute</a>
+</p>
+
+## 🌟 Overview
+
+Agent skills are emerging as a reusable procedural layer for LLM agents: they compress experience, encode domain know-how, package workflows, and help agents retrieve, compose, execute, refine, and govern capabilities across tasks. This repository accompanies the survey **A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents** and collects papers around the agent-skill ecosystem.
+
+The goal is to make the literature easy to browse from a project-page perspective: start from the taxonomy, jump into the relevant layer, and contribute missing papers with consistent metadata.
+
+<a id="taxonomy-at-a-glance"></a>
+
+## 🗺️ Taxonomy at a Glance
+
+The survey organizes agent-skill research into six connected layers:
+
+| Icon | Layer | What it Covers |
+|---|---|---|
+| 🧠 | [Ontology](#layer-1-ontology) | What a skill is, how it relates to memory, cognition, compression, and reusable procedural knowledge. |
+| 📦 | [Representation and Packaging](#layer-2-representation-and-packaging) | How skills are written, structured, serialized, distributed, and packaged. |
+| 🔁 | [Lifecycle](#layer-3-lifecycle) | How skills are acquired, stored, retrieved, executed, refined, retired, and internalized. |
+| ⚙️ | [Runtime Integration](#layer-4-runtime-integration) | How skills connect to terminals, tools, multi-agent systems, benchmarks, and execution harnesses. |
+| 🛡️ | [Governance](#layer-5-governance) | How skill ecosystems handle marketplaces, security risks, safety, auditing, and trustworthy usage. |
+| 🚀 | [Application](#layer-6-application) | Where agent skills are used in embodied robotics, games, web agents, GUI/mobile/OS agents, and coding workflows. |
+
+<a id="application-layer"></a>
+
+## 🚀 Application Layer at a Glance
+
+Agent skills are not only a representation problem; they also appear in concrete agent systems. Layer 6 collects application papers across the following areas:
+
+| Icon | Application Area | Related Directions |
+|---|---|---|
+| 🤖 | Embodied Robotics and Physical Manipulation | Robot affordances, manipulation skills, VLA agents, and embodied skill repositories. |
+| 🎮 | Open-Ended Game Environments | Minecraft-style worlds, symbolic planning, lifelong skill learning, and long-horizon game agents. |
+| 🌐 | Web Agents and Browser Automation | Web navigation, workflow memory, programmatic skills, and browser-task skill evolution. |
+| 📱 | GUI, Mobile and OS Agents | Desktop, mobile, operating-system, and multimodal GUI agents with hierarchical skills. |
+| 💻 | Coding and Terminal Workflows | Software engineering, command-line automation, terminal benchmarks, and executable skill libraries. |
+
+<a id="paper-list-outline"></a>
+
+## 📚 Paper List Outline
+
+- 🧠 [**Layer 1: Ontology**](#layer-1-ontology): cognitive architectures, memory-to-skill compression, and skill as a reusable knowledge medium.
+- 📦 [**Layer 2: Representation and Packaging**](#layer-2-representation-and-packaging): natural language skills, code snippets, decision graphs, and structured skill packages.
+- 🔁 [**Layer 3: Lifecycle**](#layer-3-lifecycle): acquisition, storage, retrieval, composition, evolution, retirement, and internalization.
+- ⚙️ [**Layer 4: Runtime Integration**](#layer-4-runtime-integration): terminal agents, tool interfaces, multi-agent systems, and benchmark harnesses.
+- 🛡️ [**Layer 5: Governance**](#layer-5-governance): marketplaces, security threats, prompt injection, supply-chain risks, and governance mechanisms.
+- 🚀 [**Layer 6: Application**](#layer-6-application): embodied robotics, open-ended games, web agents, GUI/mobile/OS agents, and coding workflows.
+
+<a id="tips-for-uploading-papers"></a>
+
+## ✨ Tips for Uploading Papers
+
+Please help keep the list useful and easy to maintain:
+
+- 🔎 **Check duplicates first**: search the README for the title, arXiv ID, OpenReview URL, or project name.
+- 🧾 **Use complete metadata**: include paper title, URL, author list, and publication year whenever possible.
+- 🧭 **Choose the best category**: place the paper under the layer and subsection that best matches its main contribution.
+- 🧩 **Add cross-category papers carefully**: if a paper truly spans multiple stages, it can appear in multiple relevant subsections.
+- 🛠️ **Keep table format unchanged**: use `| Paper Title | Paper URL | Author List | Year |` so future updates remain easy to parse.
+- 💬 **Explain new categories**: if a paper does not fit the current taxonomy, open an issue or pull request with a short rationale.
+
+Suggested row format:
+
+```markdown
+| Paper Title | [arXiv](https://arxiv.org/abs/xxxx.xxxxx) | Author A, Author B, Author C | 2026 |
+```
+
+<a id="layer-1-ontology"></a>
+
+## 🧠 Layer 1: Ontology
 
 ### Starting from Memory: The Cognitive Architecture of Agents
 
@@ -26,7 +111,9 @@
 | SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs | [https://arxiv.org/abs/2501.09316](https://arxiv.org/abs/2501.09316) | Anbang Ye, Qianran Ma, Jia Chen, Muqi Li, Tong Li, Fujiao Liu, Siqi Mai, Meichen Lu, Haitao Bao, Yang You | 2025 |
 | Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality | [https://arxiv.org/abs/2602.08004](https://arxiv.org/abs/2602.08004) | George Ling, Shanshan Zhong, Richard Huang | 2026 |
 
-## Layer 2: Representation and Packaging
+<a id="layer-2-representation-and-packaging"></a>
+
+## 📦 Layer 2: Representation and Packaging
 
 ### Natural Language
 
@@ -53,7 +140,9 @@
 | Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution | [https://arxiv.org/abs/2604.16911](https://arxiv.org/abs/2604.16911) | Sampriti Saha, Pranav Hemanth | 2026 |
 | From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills | [https://arxiv.org/abs/2604.24026](https://arxiv.org/abs/2604.24026) | Qiliang Liang, Hansi Wang, Zhong Liang, Yang Liu | 2026 |
 
-## Layer 3: Lifecycle
+<a id="layer-3-lifecycle"></a>
+
+## 🔁 Layer 3: Lifecycle
 
 ### Acquisition Stage
 
@@ -150,7 +239,9 @@
 | Internalizing Meta-Experience into Memory for Guided Reinforcement Learning in Large Language Models | [https://arxiv.org/abs/2602.10224](https://arxiv.org/abs/2602.10224) | Shiting Huang, Zecheng Li, Yu Zeng, Qingnan Ren, Zhen Fang, Qisheng Su, Kou Shi, Lin Chen, Zehui Chen, Feng Zhao | 2026 |
 | Dynamic Dual-Granularity Skill Bank for Agentic RL | [https://arxiv.org/abs/2603.28716](https://arxiv.org/abs/2603.28716) | Songjun Tu, Chengdong Xu, Qichao Zhang, Yaocheng Zhang, Xiangyuan Lan, Linjing Li, Dongbin Zhao | 2026 |
 
-## Layer 4: Runtime Integration
+<a id="layer-4-runtime-integration"></a>
+
+## ⚙️ Layer 4: Runtime Integration
 
 ### Terminal Interface
 
@@ -193,7 +284,9 @@
 | SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents | [https://arxiv.org/abs/2604.17308](https://arxiv.org/abs/2604.17308) | Ziao Zhang, Kou Shi, Shiting Huang, Avery Nie, Yu Zeng, Yiming Zhao, Zhen Fang, Qishen Su, Haibo Qiu, Wei Yang, Qingnan Ren, Shun Zou, Wenxuan Huang, Lin Chen, Zehui Chen, Feng Zhao | 2026 |
 | AgentEvolver: Towards Efficient Self-Evolving Agent System | [https://arxiv.org/abs/2511.10395](https://arxiv.org/abs/2511.10395) | Yunpeng Zhai, Shuchang Tao, Cheng Chen, Anni Zou, Ziqian Chen, Qingxu Fu, Shinji Mai, Li Yu, Jiaji Deng, Zouying Cao, Zhaoyang Liu, Bolin Ding, Jingren Zhou | 2025 |
 
-## Layer 5: Governance
+<a id="layer-5-governance"></a>
+
+## 🛡️ Layer 5: Governance
 
 ### Marketplaces and Ecosystems
 
@@ -240,7 +333,9 @@
 | Towards Secure Agent Skills: Architecture, Threat Taxonomy, and Security Analysis | [https://arxiv.org/abs/2604.02837](https://arxiv.org/abs/2604.02837) | Zhiyuan Li, Jingzheng Wu, Xiang Ling, Xing Cui, Tianyue Luo | 2026 |
 | SafeClaw-R: Towards Safe and Secure Multi-Agent Personal Assistants | [https://arxiv.org/abs/2603.28807](https://arxiv.org/abs/2603.28807) | Haoyu Wang, Zibo Xiao, Yedi Zhang, Christopher M. Poskitt, Jun Sun | 2026 |
 
-## Layer 6: Application
+<a id="layer-6-application"></a>
+
+## 🚀 Layer 6: Application
 
 ### Embodied Robotics \& Physical Manipulation
 
