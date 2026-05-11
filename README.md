@@ -52,15 +52,6 @@ The survey organizes agent-skill research into six connected layers:
 
 ## ✨ Tips for Uploading Papers
 
-Please help keep the list useful and easy to maintain:
-
-- 🔎 **Check duplicates first**: search the README for the title, arXiv ID, OpenReview URL, or project name.
-- 🧾 **Use complete metadata**: include paper title, URL, author list, and publication year whenever possible.
-- 🧭 **Choose the best category**: place the paper under the layer and subsection that best matches its main contribution.
-- 🧩 **Add cross-category papers carefully**: if a paper truly spans multiple stages, it can appear in multiple relevant subsections.
-- 🛠️ **Keep table format unchanged**: use `| Paper Title | Paper URL | Author List | Year |` so future updates remain easy to parse.
-- 💬 **Explain new categories**: if a paper does not fit the current taxonomy, open an issue or pull request with a short rationale.
-
 Suggested row format:
 
 ```markdown
