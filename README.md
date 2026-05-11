@@ -11,8 +11,6 @@
   ·
   <a href="#taxonomy-at-a-glance">🗺️ Taxonomy</a>
   ·
-  <a href="#application-layer">🚀 Applications</a>
-  ·
   <a href="#paper-list-outline">📚 Paper List</a>
   ·
   <a href="#tips-for-uploading-papers">✨ Contribute</a>
@@ -38,20 +36,6 @@ The survey organizes agent-skill research into six connected layers:
 | ⚙️ | [Runtime Integration](#layer-4-runtime-integration) | How skills connect to terminals, tools, multi-agent systems, benchmarks, and execution harnesses. |
 | 🛡️ | [Governance](#layer-5-governance) | How skill ecosystems handle marketplaces, security risks, safety, auditing, and trustworthy usage. |
 | 🚀 | [Application](#layer-6-application) | Where agent skills are used in embodied robotics, games, web agents, GUI/mobile/OS agents, and coding workflows. |
-
-<a id="application-layer"></a>
-
-## 🚀 Application Layer at a Glance
-
-Agent skills are not only a representation problem; they also appear in concrete agent systems. Layer 6 collects application papers across the following areas:
-
-| Icon | Application Area | Related Directions |
-|---|---|---|
-| 🤖 | Embodied Robotics and Physical Manipulation | Robot affordances, manipulation skills, VLA agents, and embodied skill repositories. |
-| 🎮 | Open-Ended Game Environments | Minecraft-style worlds, symbolic planning, lifelong skill learning, and long-horizon game agents. |
-| 🌐 | Web Agents and Browser Automation | Web navigation, workflow memory, programmatic skills, and browser-task skill evolution. |
-| 📱 | GUI, Mobile and OS Agents | Desktop, mobile, operating-system, and multimodal GUI agents with hierarchical skills. |
-| 💻 | Coding and Terminal Workflows | Software engineering, command-line automation, terminal benchmarks, and executable skill libraries. |
 
 <a id="paper-list-outline"></a>
 
