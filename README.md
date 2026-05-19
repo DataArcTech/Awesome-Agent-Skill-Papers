@@ -1,11 +1,13 @@
 # 🧩 A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents
 
 <p align="center">
-  <img src="taxonomy.png" alt="Taxonomy of agent skills" width="88%">
+  <img src="taxonomy.png" alt="Taxonomy of agent skills" width="100%">
 </p>
 
 <p align="center">
-  <a href="A_Survey_of_Agent_Skills__Toward_Procedural_Infrastructure_for_LLM_Agents.pdf">📄 Survey Paper</a>
+  <a href="https://www.preprints.org/manuscript/202605.1276">🌐 Preprint Link</a>
+  ·
+  <a href="A_Survey_of_Agent_Skills__Toward_Procedural_Infrastructure_for_LLM_Agents.pdf">📄 PDF File</a>
   ·
   <a href="#taxonomy-at-a-glance">🗺️ Taxonomy</a>
   ·
@@ -17,6 +19,21 @@
 ## 🌟 Overview
 
 Agent skills are emerging as a reusable procedural layer for LLM agents: they compress experience, encode domain know-how, package workflows, and help agents retrieve, compose, execute, refine, and govern capabilities across tasks. This repository accompanies the survey **A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents** and collects papers around the agent-skill ecosystem.
+
+## 🫆 Citation
+
+```bibtex
+@article{yang2026asurveyofagentskills,
+	doi = {10.20944/preprints202605.1276.v1},
+	url = {https://doi.org/10.20944/preprints202605.1276.v1},
+	year = 2026,
+	month = {May},
+	publisher = {Preprints},
+	author = {Cehao Yang and Xiaojun Wu and Honghao Liu and Xueyuan Lin and Chengjin Xu and Xuhui Jiang and Yuanliang Sun and Wenjie Zhang and Zhichao Shi and Yijie Xu and Jia Li and Hui Xiong and Jian Guo},
+	title = {A Survey of Agent Skills: Toward Procedural Infrastructure for LLM Agents},
+	journal = {Preprints}
+}
+```
 
 <a id="taxonomy-at-a-glance"></a>
 
@@ -33,16 +50,6 @@ The survey organizes agent-skill research into six connected layers:
 | 🛡️ | [Governance](#layer-5-governance) | How skill ecosystems handle marketplaces, security risks, safety, auditing, and trustworthy usage. |
 | 🚀 | [Application](#layer-6-application) | Where agent skills are used in embodied robotics, games, web agents, GUI/mobile/OS agents, and coding workflows. |
 
-<a id="paper-list-outline"></a>
-
-## 📚 Paper List Outline
-
-- 🧠 [**Layer 1: Ontology**](#layer-1-ontology): cognitive architectures, memory-to-skill compression, and skill as a reusable knowledge medium.
-- 📦 [**Layer 2: Representation and Packaging**](#layer-2-representation-and-packaging): natural language skills, code snippets, decision graphs, and structured skill packages.
-- 🔁 [**Layer 3: Lifecycle**](#layer-3-lifecycle): acquisition, storage, retrieval, composition, evolution, retirement, and internalization.
-- ⚙️ [**Layer 4: Runtime Integration**](#layer-4-runtime-integration): terminal agents, tool interfaces, multi-agent systems, and benchmark harnesses.
-- 🛡️ [**Layer 5: Governance**](#layer-5-governance): marketplaces, security threats, prompt injection, supply-chain risks, and governance mechanisms.
-- 🚀 [**Layer 6: Application**](#layer-6-application): embodied robotics, open-ended games, web agents, GUI/mobile/OS agents, and coding workflows.
 
 <a id="tips-for-uploading-papers"></a>
 
