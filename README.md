@@ -144,6 +144,7 @@ Suggested row format:
 | ARISE: Agent Reasoning with Intrinsic Skill Evolution in Hierarchical Reinforcement Learning | [https://arxiv.org/abs/2603.16060](https://arxiv.org/abs/2603.16060) | Yu Li, Rui Miao, Zhengling Qi, Tian Lan | 2026 |
 | CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification | [https://arxiv.org/abs/2604.01687](https://arxiv.org/abs/2604.01687) | Hanrong Zhang, Shicheng Fan, Henry Peng Zou, Yankai Chen, Zhenting Wang, Jiayu Zhou, Chengze Li, Wei-Chieh Huang, Yifei Yao, Kening Zheng, Xue Liu, Xiaoxiao Li, Philip S. Yu | 2026 |
 | AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution | [https://arxiv.org/abs/2603.01145](https://arxiv.org/abs/2603.01145) | Yutao Yang, Junsong Li, Qianjun Pan, Bihao Zhan, Yuxuan Cai, Lin Du, Jie Zhou, Kai Chen, Qin Chen, Xin Li, Bo Zhang, Liang He | 2026 |
+| OpenSkill: Open-World Self-Evolution for LLM Agents | [https://arxiv.org/abs/2606.06741](https://arxiv.org/abs/2606.06741) | Zhiling Yan, Dingjie Song, Hanrong Zhang, Wei Liang, Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun | 2026 |
 
 ### Storage Stage
 
